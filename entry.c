@@ -3,6 +3,7 @@
 
 #define DEVICE_NAME L"\\Device\\ReadDrv"
 #define SYM_LINK_NAME L"\\??\\ReadDrv"
+
 #define _WIN10x32
 
 NTSTATUS GetProcessDirBase(IN DWORD dwPID, OUT ULONG* pDirBase)
